@@ -122,12 +122,27 @@ export default class Hero extends React.Component {
             onMouseMove={this.onMouseMove}
         >
           <div className="hero__backdrop"></div>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <polygon fill="#0e0e0edd" points="0,0 63.15,0 43.15,100 0,100"/>
+          <svg className="first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#212121" points="0,0 43.15,0 23.15,100 0,100"/>
+          </svg>
+          <svg className="second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#21212199" points="0,0 53.15,0 33.15,100 0,100"/>
+          </svg>
+          <svg className="third" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#21212177" points="0,0 63.15,0 43.15,100 0,100"/>
+          </svg>
+          <svg className="fourth" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#21212155" points="0,0 73.15,0 53.15,100 0,100"/>
+          </svg>
+          <svg className="fifth" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="#21212133" points="0,0 83.15,0 63.15,100 0,100"/>
           </svg>
           <h1 className="rgb-red">Geoffrey Caven</h1>
           <h1 className="rgb-green">Geoffrey Caven</h1>
           <h1 className="rgb-blue">Geoffrey Caven</h1>
+          <h2 className="rgb-red">Web & Mobile Developer</h2>
+          <h2 className="rgb-green">Web & Mobile Developer</h2>
+          <h2 className="rgb-blue">Web & Mobile Developer</h2>
         </div>
       </div>
     );
